@@ -1,11 +1,13 @@
 import './App.css'
-import {Header,Main,Footer,Hero} from './components/index'
+import {Main} from './components/index'
+import {Header,Hero,MostPopular,Footer} from './sections/index'
 const App = () => {
   return (
     <>
       <Header/>
       <Main>
           <Hero/>
+          <MostPopular/>
       </Main>
       <Footer>Footer Element</Footer>
     </>

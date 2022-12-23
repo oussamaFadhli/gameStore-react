@@ -1,4 +1,4 @@
-export {default as Header} from '../sections/Header/Header'
 export {default as Main} from './Main/Main'
-export {default as Hero} from './Hero/Hero'
-export {default as Footer} from '../sections/Footer/Footer'
+export {default as NavItem} from './NavItem/NavItem'
+export {NavItemDropDown as NavItemDropDown} from './NavItem/NavItem'
+export {default as Card} from './Card/Card';
